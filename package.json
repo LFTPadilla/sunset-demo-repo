@@ -9,7 +9,7 @@
     "build": "echo 'build ok' > dist/build.txt && cat dist/build.txt"
   },
   "dependencies": {
-    "lodash": "4.17.4",
+    "lodash": "4.18.1",
     "lodash.template": "4.4.0",
     "minimist": "1.2.5",
     "axios": "0.21.0",
