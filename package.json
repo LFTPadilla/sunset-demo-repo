@@ -9,6 +9,11 @@
     "build": "echo 'build ok' > dist/build.txt && cat dist/build.txt"
   },
   "dependencies": {
-    "lodash": "4.17.4"
+    "lodash": "4.17.4",
+    "lodash.template": "4.4.0",
+    "minimist": "1.2.5",
+    "axios": "0.21.0",
+    "node-fetch": "2.6.0",
+    "tar": "4.4.13"
   }
 }
