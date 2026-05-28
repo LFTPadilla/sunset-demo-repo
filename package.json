@@ -1,0 +1,14 @@
+{
+  "name": "sunset-demo-repo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Seed repo for SunsetHQ GitHub onboarding pipeline validation",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/test.js",
+    "build": "echo 'build ok' > dist/build.txt && cat dist/build.txt"
+  },
+  "dependencies": {
+    "lodash": "4.17.4"
+  }
+}
