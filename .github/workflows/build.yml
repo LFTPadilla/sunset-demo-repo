@@ -24,7 +24,7 @@ jobs:
           mkdir -p dist
           echo "build $(date -u +%FT%TZ) sha=${GITHUB_SHA}" > dist/build.txt
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: build-output
           path: dist/build.txt
